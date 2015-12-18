@@ -59,17 +59,18 @@ header nav {
   font-weight: bold;
   text-decoration: none;
   color: #ffffff;
-  background-color: #8468B3;
+  background-color: #634991;
   margin: 0px -1px;
-  border-top: 1px solid #6B4F9A;
-  border-right: 2px solid #6B4F9A;
-  border-bottom: 1px solid #6B4F9A;
-  border-left: 2px solid #6B4F9A;
+  border-top: 1px solid #ddddff;
+  border-right: 2px solid #ddddff;
+  border-bottom: 1px solid #ddddff;
+  border-left: 2px solid #ddddff;
   padding: .4rem 3rem;
 }
 
 .menu a:active, .menu a:hover {
   background-color: #ddddff;
+  color: #4f3b72;
 }
 
 header nav li {
@@ -77,14 +78,21 @@ header nav li {
 }
 
 header nav {
-  background-color: #8468B3;
+  background-color: #634991;
+}
+
+
+.full-height {
+  background-color: aqua;
+  height: 27rem;
+  margin: 0rem;
 }
 
 
 aside { 
   float: left;
   width: 30%;
-  height: 100%;
+  min-height: 100%;
   padding: 2rem;
   background-color: #C0B2D5;
 }
@@ -109,6 +117,7 @@ article {
   background-color: #e6e6e9;
   float: right;
   width: 70%;
+  min-height: 100%;
 }
 
 article.home {
